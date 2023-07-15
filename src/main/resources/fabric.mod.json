@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "butter",
+	"version": "${version}",
+	"name": "butter",
+	"description": "makes your selected hotbar slot indicator glide like it's on butter",
+	"authors": [
+		"Полина"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/butter",
+		"sources": "https://github.com/polina4096/butter"
+	},
+	"license": "unlicense",
+	"icon": "assets/butter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "polina4096.butter.ButterMod",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"butter.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-language-kotlin": ">=1.9.0"
+	}
+}
