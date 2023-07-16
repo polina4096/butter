@@ -12,12 +12,12 @@ import org.spongepowered.asm.mixin.injection.ModifyArg;
 import polina4096.butter.ButterMod;
 
 @Mixin(InGameHud.class)
-public class InGameHudMixin {
+public abstract class InGameHudMixin {
 	@Shadow
 	private int scaledWidth;
 
 	@Shadow
-	private PlayerEntity getCameraPlayer() { return null; }
+	protected abstract PlayerEntity getCameraPlayer();
 
 	@Final
 	@Shadow
