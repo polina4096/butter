@@ -3,7 +3,7 @@
 <br>butter
 </h1>
 
-<center>✨ smooth gliding animation for the selected hotbar slot indicator ✨</center>
+<p align="center">✨ smooth gliding animation for the selected hotbar slot indicator ✨</p>
 
 ### Build Instructions
 1. Clone the git repository
