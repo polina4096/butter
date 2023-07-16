@@ -37,5 +37,8 @@
 		"java": ">=17",
 		"fabric-language-kotlin": ">=1.9.0",
 		"yet_another_config_lib_v3": ">=3.0.3"
+	},
+	"suggests": {
+		"modmenu": ">=7.1.0"
 	}
 }
