@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyArg;
 import polina4096.butter.ButterMod;
 
-@Mixin(InGameHud.class)
+@Mixin(value = InGameHud.class, priority = -1)
 public abstract class InGameHudMixin {
 	@Shadow
 	private int scaledWidth;
